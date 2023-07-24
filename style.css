@@ -1,0 +1,84 @@
+/* importing Google font for h1 element */
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker|Montserrat');
+
+/* Set ALL HTML elements with border-box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* class to center elements */
+.center {
+    text-align: center;
+}
+
+/* Sets the look for the header and footer. */
+header, footer{
+    background-color: #183059;
+    color: #F6F4F3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 10px 0 20px 20px;
+}
+
+/* h1 font and size */
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+}
+
+/* font size for "Software Developer" in header */
+header > p{
+    font-size: 30px;
+}
+
+/* Sets margins to center all the text in the main */
+div {
+    margin: 0 auto;
+}
+
+/* body background color and font */
+body {
+    background-color: #F6F4F3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Sets list markers inside the block */
+.list-inside li {
+    list-style-position: inside;
+}
+
+/* aligns li element */
+li {
+    margin: 0 36%;
+}
+
+/* centers image (hiking.png) */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* hr size style color */
+  hr {
+    height: 1px;
+    background-color: #183059;
+    border: 1px solid #183059;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* styles h3 to look like normal text */
+h3 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+/* Setting pseudo classes for links. */
+a:link { color: #183059; }
+a:visited { color: #4e878c; }
+a:hover { color: #5CB1D5; }
+a:active {color: #74b3ce; }
+
